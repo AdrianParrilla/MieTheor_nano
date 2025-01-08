@@ -5,7 +5,7 @@ library(RColorBrewer)
 library(viridis)
 
 #-------------------EV model------------
-# Select Ev columns and transform intensitites to log
+# Select EV columns and transform intensitites to log
 mie <- read_excel("path/to/data/EV_results.xlsx")  
 mieEV <- mie[,c(1,2,10,11)]
 mieEV[5] <- round(mieEV$`Log EV *F`,2)
