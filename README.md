@@ -1,4 +1,4 @@
-## Mietheor_nano
+## MieTheor_nano
 
 A Matlab script to derive nanoparticle size by flow cytometry applying Mie theory.
 
